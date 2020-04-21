@@ -7,6 +7,7 @@ import { ProductCardComponent } from './Components/product-card/product-card.com
 import { ProductsViewComponent } from './Components/products-view/products-view.component';
 import {ButtonModule} from 'primeng';
 import {DialogModule} from 'primeng';
+import {InputTextModule} from 'primeng';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {DialogModule} from 'primeng';
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
-    DialogModule
+    DialogModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
