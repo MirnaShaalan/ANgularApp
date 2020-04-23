@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Deployment steps
 1- make "SmartTech.ProductsCatalogTask.Web.Api" as startup project.
 
-2- update-dataBase on project "SmartTech.ProductsCatalogTask.Repository" using package manager console.
+2- Run `update-database` update-dataBase under project "SmartTech.ProductsCatalogTask.Repository" using package manager console.
 
 3- after running the solution you should get your "PortNumber".
 
@@ -14,9 +14,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5- run the clientApp.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Api Documentation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-You can find the Api Documentation (Swagger) on 
+https://localhost:"Add your Port Number Here"/index.html
 
 ## Build
 
