@@ -2,8 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-## Development server
+## Deployment steps
+1- make "SmartTech.ProductsCatalogTask.Web.Api" as startup project.
 
+2- update-dataBase on project "SmartTech.ProductsCatalogTask.Repository" using package manager console.
+
+3- after running the solution you should get your "PortNumber".
+
+4- change the port number in the clinetApp>services>productService.ts with your Port Number.
+
+5- run the clientApp.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
